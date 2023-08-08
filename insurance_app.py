@@ -46,7 +46,7 @@ input_dict = {
     "bmi": bmi,
     "children": children,
     "smoker": smoker,
-    "region": region.lower(),
+    "region": region.lower()
 }
 input_df = pd.DataFrame([input_dict])
 
